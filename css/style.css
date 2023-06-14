@@ -16,7 +16,8 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-.nav {
+.nav,
+.header {
   background-color: #1f2937;
   color: #f9faf8;
   justify-content: space-between;
@@ -32,13 +33,26 @@ body {
   font-weight: 600;
 }
 
+.header {
+  padding: 4rem 0;
+}
+
 .header-left {
   flex-direction: column;
+  gap: 8px;
+}
+
+.header-left > h2 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.header-left > * {
+  margin: 0;
 }
 
 .header-right {
   min-width: 400px;
-  height: 200px;
   justify-content: center;
   background-color: #e5e7eb;
 }
@@ -54,4 +68,12 @@ body {
 .header-right,
 .nav {
   align-items: center;
+}
+
+#signup-button {
+  background-color: #3882f6;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 100px;
+  color: #f9faf8;
 }
