@@ -37,7 +37,9 @@ body {
   padding: 4rem 0;
 }
 
-.header-left {
+.header-left,
+.main,
+.image-item {
   flex-direction: column;
   gap: 8px;
 }
@@ -53,7 +55,6 @@ body {
 
 .header-right {
   min-width: 400px;
-  justify-content: center;
   background-color: #e5e7eb;
 }
 
@@ -61,12 +62,21 @@ body {
 .nav ul,
 .header,
 .header-left,
-.header-right {
+.header-right,
+.main,
+.image-container,
+.image-item {
   display: flex;
 }
 
 .header-right,
-.nav {
+.image-item {
+  justify-content: center;
+}
+
+.header-right,
+.nav,
+.main {
   align-items: center;
 }
 
@@ -76,4 +86,27 @@ body {
   padding: 8px 16px;
   width: 100px;
   color: #f9faf8;
+}
+
+.main > div:first-child {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  margin: 32px 0;
+}
+
+.media {
+  height: 150px;
+  border: 4px solid #3882f6;
+  border-radius: 8px;
+}
+
+.image-item {
+  width: 150px;
+}
+
+.image-container {
+  width: 100%;
+  justify-content: space-evenly;
+  text-align: center;
 }
