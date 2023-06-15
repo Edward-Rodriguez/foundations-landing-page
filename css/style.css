@@ -12,8 +12,9 @@ html {
 
 body {
   height: 100vh;
-  margin: 0;
+  margin: 0 auto;
   font-family: Roboto, sans-serif;
+  max-width: 1280px;
 }
 
 .nav,
@@ -54,7 +55,7 @@ body {
 }
 
 .header-right {
-  min-width: 400px;
+  min-width: 450px;
   background-color: #e5e7eb;
 }
 
@@ -109,4 +110,20 @@ body {
   width: 100%;
   justify-content: space-evenly;
   text-align: center;
+}
+
+.page-container {
+  padding: 0px 72px;
+  margin: auto;
+}
+
+.main {
+  background-color: #f9faf8;
+}
+
+.nav,
+.header,
+.main {
+  padding-left: 128px;
+  padding-right: 128px;
 }
