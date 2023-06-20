@@ -62,8 +62,12 @@ body {
 }
 
 .header-right {
-  min-width: 450px;
-  background-color: #e5e7eb;
+  background-color: #1f2937;
+  margin: 1rem;
+}
+
+.header-right img {
+  max-width: 100%;
 }
 
 .nav,
