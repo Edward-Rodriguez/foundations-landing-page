@@ -22,7 +22,8 @@ body {
 }
 
 .nav,
-.header {
+.header,
+.footer {
   background-color: #1f2937;
   color: #f9faf8;
   justify-content: space-between;
@@ -192,4 +193,9 @@ body {
 
 .left-signup-section p {
   margin: 0;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
 }
