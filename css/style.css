@@ -46,7 +46,7 @@ body {
 .main,
 .image-item,
 .quote-section,
-.left-footer {
+.left-signup-section {
   flex-direction: column;
   gap: 8px;
 }
@@ -74,10 +74,10 @@ body {
 .image-container,
 .image-item,
 .quote-section,
-.footer,
-.footer-container,
-.left-footer,
-.right-footer {
+.signup-section,
+.signup-container,
+.left-signup-section,
+.right-signup-section {
   display: flex;
 }
 
@@ -156,11 +156,11 @@ body {
   text-align: right;
 }
 
-.footer-container {
+.signup-container {
   padding: 3rem;
 }
 
-.footer {
+.signup-section {
   width: 100%;
   background-color: #3882f6;
   border-radius: 8px;
@@ -169,27 +169,27 @@ body {
   justify-content: space-between;
 }
 
-.left-footer {
+.left-signup-section {
   gap: 0;
 }
 
-.right-footer {
+.right-signup-section {
   align-items: center;
   margin-right: -2rem;
 }
 
-.left-footer p:first-child {
+.left-signup-section p:first-child {
   font-size: 24px;
   font-weight: 900;
 }
 
-.right-footer button {
+.right-signup-section button {
   width: 100px;
   height: 35px;
   flex: 0 0 auto;
   border: 2px solid #e5e7eb;
 }
 
-.left-footer p {
+.left-signup-section p {
   margin: 0;
 }
