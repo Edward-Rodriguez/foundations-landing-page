@@ -28,9 +28,9 @@ body {
 .header {
   display: flex;
   flex-wrap: wrap;
-  max-width: 1300px;
-  gap: 2rem;
-  margin: 4rem 0;
+  max-width: 1200px;
+  gap: 4rem;
+  margin-bottom: 4rem;
 }
 
 .nav {
@@ -61,7 +61,7 @@ body {
   flex: 3;
   flex-direction: column;
   justify-content: space-between;
-  gap: 0.5rem;
+  gap: 1.5rem;
   font-size: 18px;
 }
 
@@ -77,29 +77,17 @@ body {
   font-weight: 900;
 }
 
-.header-right img {
-  width: 100%;
-  height: 100%;
-  border-radius: 1rem;
-}
-
-.quote-section,
-.signup-section,
-.signup-container,
-.left-signup-section,
-.right-signup-section {
-  display: flex;
+.header-right {
+  background: url("../img/brick-wall.jpg");
+  background-position-x: center;
+  background-position-y: center;
+  flex: 3;
+  border-radius: 10px;
 }
 
 .header-right,
 .image-item {
   justify-content: center;
-}
-
-.main {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
 }
 
 .signup-button {
@@ -114,6 +102,14 @@ body {
   cursor: pointer;
   border: 2px solid #e5e7eb;
   background-color: rgb(31, 72, 138);
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f9faf8;
+  padding-bottom: 48px;
 }
 
 .main > div:first-child {
@@ -139,28 +135,27 @@ body {
 
 .image-container {
   display: flex;
-  width: 100%;
+  max-width: 1300px;
   justify-content: space-around;
   text-align: center;
   flex-wrap: wrap;
   gap: 2rem;
 }
 
-.main {
-  background-color: #f9faf8;
-  padding-bottom: 48px;
-}
-
 .header,
-.main,
-.quote-section {
-  padding-left: 10rem;
-  padding-right: 10rem;
+.main {
+  padding: 2rem;
 }
 
-.quote-section {
+.quote-section-container {
   background-color: #e5e7eb;
   padding: 48px 128px;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-section {
+  max-width: 800px;
 }
 
 .quote-section > p:first-child {
@@ -179,10 +174,15 @@ body {
 }
 
 .signup-container {
+  display: flex;
+  max-width: 1200px;
   padding: 3rem;
+  justify-content: center;
+  margin: auto;
 }
 
 .signup-section {
+  display: flex;
   width: 100%;
   background-color: #3882f6;
   border-radius: 8px;
@@ -217,6 +217,8 @@ body {
 }
 
 .footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
   text-align: center;
   padding: 1rem;
 }
