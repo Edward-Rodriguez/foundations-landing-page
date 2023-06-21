@@ -58,7 +58,7 @@ body {
 
 .header-left {
   display: flex;
-  flex: 3;
+  flex: 1;
   flex-direction: column;
   justify-content: space-between;
   gap: 1.5rem;
@@ -81,7 +81,7 @@ body {
   background: url("../img/graffiti.jpg");
   background-position-x: center;
   background-position-y: center;
-  flex: 3;
+  flex: 1;
   border-radius: 10px;
 }
 
