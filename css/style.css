@@ -78,7 +78,7 @@ body {
 }
 
 .header-right {
-  background: url("../img/brick-wall.jpg");
+  background: url("../img/graffiti.jpg");
   background-position-x: center;
   background-position-y: center;
   flex: 3;
@@ -218,7 +218,13 @@ body {
 
 .footer {
   background-color: #1f2937;
-  color: #e5e7eb;
+  color: #cccdd1;
   text-align: center;
   padding: 1rem;
+  font-size: 12px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #cccdd1;
 }
