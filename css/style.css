@@ -14,11 +14,10 @@ body {
   margin: auto;
   height: 100vh;
   font-family: Roboto, sans-serif;
-  max-width: 1280px;
 }
 
 .page-container {
-  padding: 0px 72px;
+  /* padding: 0px 72px; */
 }
 
 .nav,
@@ -103,6 +102,12 @@ body {
   padding: 8px 16px;
   width: 100px;
   color: #f9faf8;
+}
+
+.signup-button:hover {
+  cursor: pointer;
+  border: 2px solid #e5e7eb;
+  background-color: rgb(31, 72, 138);
 }
 
 .main > div:first-child {
